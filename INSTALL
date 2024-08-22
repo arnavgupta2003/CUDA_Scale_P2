@@ -1,0 +1,19 @@
+# Installation Instructions
+
+## Prerequisites
+
+- Python 3.x
+- CUDA Toolkit
+- NVIDIA GPU with CUDA support
+
+## Setup
+
+1. Clone the repository.
+2. Run `make setup` to install Python dependencies.
+3. Ensure CUDA is properly installed and configured.
+
+## Running the Program
+
+- Place input images in the `data/` directory.
+- Execute `python src/edge_detection.py` to process the images.
+- Output images will be saved in the same directory.
